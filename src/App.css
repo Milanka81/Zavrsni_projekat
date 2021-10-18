@@ -1,0 +1,36 @@
+
+  
+  .button-overall{
+    column-count: 2;
+    padding: 20px 450px;
+  }
+  
+  .normal-button{
+    background-color: white;
+    width:380px;
+    height:80px;
+    padding: 8px;
+    margin:24px;
+    color:blue;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    justify-content: center;
+  }
+  
+  .green-button{
+    color:green;
+  }
+  
+  .red-button{
+    color:red;
+  }
+  
+  .normal-button:hover{
+    transform: scale(1.1);
+    transition: transform 200ms ease-in-out;
+    cursor:pointer;
+  }
+  
