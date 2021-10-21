@@ -54,7 +54,7 @@ const Quiz = ({loggedIn}) => {
     <div className="container">
       {currentIndex >= questions.length ? (<>
       <h1>Game Ended, Your Score is {score}</h1> 
-      <ButtonStyle  onClick={() => window.location.reload(false)}>HomePage</ButtonStyle></>)
+      <ButtonStyle  onClick={() => history.push("/")}>HomePage</ButtonStyle></>)
       : 
       (
       <Questionaire   handleAnswer={handleAnswer}
