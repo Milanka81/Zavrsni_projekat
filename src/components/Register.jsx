@@ -52,7 +52,7 @@ const Register = ({setUser}) => {
             
 
         }}>
-              <Title>Create Accaunt</Title>
+              <Title>Create Account</Title>
             <TextField
             style={{ marginBottom: 25 }}
             label="Enter Your Username"
