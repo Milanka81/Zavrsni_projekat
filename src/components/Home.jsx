@@ -5,7 +5,7 @@ const Home = ({loggedIn}) => {
 
     
     return loggedIn?(
-           <Redirect to="/login"/>):( <Redirect to="/quiz"/>
+         <Redirect to="/quiz"/>):  (<Redirect to="/login"/>
     
     )
 }
