@@ -39,7 +39,7 @@ const Login = ({setUser}) => {
             
         }}>
 
-            <H2>Have an Accaunt?</H2>
+            <H2>Have an Account?</H2>
             <TextField
             style={{ marginBottom: 25 }}
             label="Username"
